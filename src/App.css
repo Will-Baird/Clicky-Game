@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.score {
+    margin-left: 20px;
+}
+
+.actual {
+    color: red;
+}
+
+.high {
+    color: green;
+}
+
+#root {
+    background-color:#F89B22;
+}
+
+@media only screen and (max-width: 320px) {
+    .title, .score {
+        font-size: 20px;
+    }
+
+    .score {
+        text-align: center; 
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .title, .score {
+        font-size: 25px;
+        text-align: center;
+    }
+}

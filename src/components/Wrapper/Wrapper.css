@@ -1,0 +1,29 @@
+.wrapper {
+    background-color: darkcyan;
+    height: 420px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1432px) {
+    .wrapper {
+        height: 620px;
+    }
+}
+
+@media only screen and (max-width: 964px) and (min-width: 700px) {
+    .wrapper {
+        height: 820px;
+    }
+}
+
+@media only screen and (max-width: 698px) {
+    .wrapper {
+        height: 1220px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .wrapper {
+        height: 2300px;
+    }
+}
